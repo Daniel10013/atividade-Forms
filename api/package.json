@@ -1,0 +1,19 @@
+{
+  "name": "api_atividade_form",
+  "version": "1.0.0",
+  "description": "Api da atividade de framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macintosh-1984/atividade-Forms.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Macintosh-1984/atividade-Forms/issues"
+  },
+  "homepage": "https://github.com/Macintosh-1984/atividade-Forms#readme"
+}
