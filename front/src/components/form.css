@@ -1,0 +1,18 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: solid white 1px;
+    transition: 0.25s;
+}
+
+input:focus{
+    border-color: #646cff !important;
+    transition: 0.25s !important;
+}
