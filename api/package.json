@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Macintosh-1984/atividade-Forms/issues"
   },
-  "homepage": "https://github.com/Macintosh-1984/atividade-Forms#readme"
+  "homepage": "https://github.com/Macintosh-1984/atividade-Forms#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
