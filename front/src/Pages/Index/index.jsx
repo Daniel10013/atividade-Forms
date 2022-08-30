@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import Form from './components/form';
+import reactLogo from '../../assets/react.svg'
+import viteLogo from '../../assets/vite.svg'
+import Form from '../../Components/Form/form';
 
-import './App.css'
+import './style.css'
 
-function App() {
+function Index() {
   return (
     <div className="App">
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default Index
