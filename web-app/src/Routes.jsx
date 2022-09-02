@@ -1,15 +1,20 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import App from './Pages/Index/App'
+import Index from './Pages/Index/Index'
 import ShowData from './Pages/ShowData/ShowData'
 
+// component header
+import Header from './Components/Header/Header'
 
-export function AppRoutes() {
+function AppRoutes() {
     return (
       <Router>
+      <Header />        
           <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="/" element={<Index />} />
             <Route path="/show-data" element={<ShowData />} />
           </Routes>
       </Router>
     );
   }
+
+export default AppRoutes

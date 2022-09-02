@@ -1,0 +1,50 @@
+.btn-delete{
+    width: 54%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;    
+    background-color: #1a1a1a;    
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: border-color 0.25s;
+}
+
+.btn-delete:hover {
+    border-color: #646cff;
+}
+
+.reset:hover{
+    transition: 0.25;
+    background-color: rgb(224, 65, 65) ;
+    border-color: white;
+}
+
+table{
+    z-index: +100;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 4px #646cffaa;
+    background-color: #202024;
+    filter: drop-shadow(0 0 0.2em #b4b8ffaa);
+    width: 60%;
+}
+
+thead{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #646cffaa;
+}
+
+tr{
+    height: 70px;
+    font-size: 20px;
+}
+
+tr:nth-of-type(even){
+    background-color: #19191b;    
+}
